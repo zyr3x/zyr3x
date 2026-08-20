@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://zyr3x.github.io"><img src="https://img.shields.io/badge/Portfolio-zyr3x.github.io-38BDF8?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio Website" /></a>
   <a href="https://www.linkedin.com/in/oleg-semenov-belvg/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="https://github.com/belvg-public"><img src="https://img.shields.io/badge/BelVG-CTO-FF6B00?style=for-the-badge&logo=github&logoColor=white" alt="BelVG CTO" /></a>
+  <a href="https://github.com/belvg-public"><img src="https://img.shields.io/badge/BelVG-CTO-FF3366?style=for-the-badge&logo=github&logoColor=white" alt="BelVG CTO" /></a>
   <img src="https://img.shields.io/badge/Location-Riga%2C%20Latvia%20🇱🇻-238636?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Riga, Latvia" />
   <img src="https://komarev.com/ghpvc/?username=zyr3x&style=for-the-badge&color=58a6ff&label=PROFILE+VIEWS" alt="Profile Views" />
 </p>
