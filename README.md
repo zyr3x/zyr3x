@@ -8,7 +8,6 @@
 
 <p align="center">
   <a href="https://www.linkedin.com/in/oleg-semenov-belvg/"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
-  <a href="mailto:oleg.semenov@belvg.com"><img src="https://img.shields.io/badge/Email-oleg.semenov%40belvg.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/belvg-public"><img src="https://img.shields.io/badge/BelVG-Tech%20Lead-FF6B00?style=for-the-badge&logo=github&logoColor=white" alt="BelVG" /></a>
   <img src="https://img.shields.io/badge/Location-Riga%2C%20Latvia%20🇱🇻-22C55E?style=for-the-badge&logo=googlemaps&logoColor=white" alt="Riga, Latvia" />
 </p>
