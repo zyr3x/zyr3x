@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="assets/hero-banner.svg" alt="Oleg Semenov — CTO & Head of AI Software Engineering" width="100%" />
+# 👑 Oleg Semenov (`@zyr3x`)
 
-<br>
+### ⚡ CTO @ [BelVG](https://belvg.com) • Head of AI Software Engineering • Enterprise Architect ⚡
+
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=CTO+%40+BelVG+%7C+Head+of+AI+Engineering;Building+fnxt.app+%E2%80%A2+deepmine.by+%E2%80%A2+doka2.com;15%2B+Years+Enterprise+Architecture+%26+eCommerce;Autonomous+AI+Agents+%26+Multi-Agent+Systems;Bridge+Engineer%3A+Gemini+%7C+Claude+%7C+OpenAI+%7C+MCP)](https://git.io/typing-svg)
 
 <p align="center">
   <a href="https://www.linkedin.com/in/oleg-semenov-belvg/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
