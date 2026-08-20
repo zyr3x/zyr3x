@@ -52,11 +52,12 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎙️ <a href="https://deepmine.by">deepmine.by</a></h3>
-      <p>Advanced media intelligence, speech processing, and audio synthesis pipelines for next-level content automation.</p>
+      <h3>📻 <a href="https://deepmine.by">deepmine.by</a></h3>
+      <p>Independent electronic music portal &amp; online radio station broadcasting curated Deep Tech House, Tech House, and Minimal Techno sets with Icecast streaming daemons.</p>
       <p>
-        <img src="https://img.shields.io/badge/Media_AI-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Media AI" />
-        <img src="https://img.shields.io/badge/Audio-3B82F6?style=flat-square&logo=signal&logoColor=white" alt="Audio" />
+        <img src="https://img.shields.io/badge/Icecast_2-3B82F6?style=flat-square&logo=signal&logoColor=white" alt="Icecast" />
+        <img src="https://img.shields.io/badge/Yii_Framework-0073B7?style=flat-square&logo=php&logoColor=white" alt="Yii" />
+        <img src="https://img.shields.io/badge/LXC_Containers-2C3E50?style=flat-square&logo=linux&logoColor=white" alt="LXC" />
       </p>
     </td>
   </tr>
