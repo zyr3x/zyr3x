@@ -26,6 +26,14 @@
 
 ---
 
+## 📊 Engineering Impact & Metrics
+
+<div align="center">
+  <img src="assets/metrics.svg" alt="Engineering Metrics & Activity" width="100%" />
+</div>
+
+---
+
 ## 🔮 Featured Platforms & Products
 
 <table width="100%">
@@ -139,22 +147,6 @@
     </td>
   </tr>
 </table>
-
----
-
-## 📊 Analytics & Activity
-
-<div align="center">
-
-### 📈 Contribution Activity Graph
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=zyr3x&bg_color=0D0B18&color=C084FC&line=8B5CF6&point=E879F9&area=true&hide_border=true" alt="Contribution Graph" width="98%" />
-
-<br><br>
-
-### 🔥 Continuous Streak & Consistency
-<img src="https://streak-stats.demolab.com/?user=zyr3x&theme=tokyonight&hide_border=true&background=0D0B18&ring=8B5CF6&fire=C084FC&currStreakLabel=C084FC" alt="GitHub Streak" width="98%" />
-
-</div>
 
 ---
 
