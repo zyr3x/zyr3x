@@ -1,8 +1,8 @@
 <div align="center">
 
-# 👨‍💻 Oleg Semenov (`@zyr3x`)
+# 👑 Oleg Semenov (`@zyr3x`)
 
-### CTO @ [BelVG](https://belvg.com) • Head of AI Software Engineering • Enterprise Architect
+### ⚡ CTO @ [BelVG](https://belvg.com) • Head of AI Software Engineering • Enterprise Architect ⚡
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=3000&pause=1000&color=58A6FF&center=true&vCenter=true&width=680&lines=CTO+%40+BelVG+%7C+Head+of+AI+Engineering;Building+fnxt.app+%E2%80%A2+deepmine.by+%E2%80%A2+doka2.com;15%2B+Years+Enterprise+Architecture+%26+eCommerce;Autonomous+AI+Agents+%26+Multi-Agent+Systems;Bridge+Engineer%3A+Gemini+%7C+Claude+%7C+OpenAI+%7C+MCP)](https://git.io/typing-svg)
 
@@ -17,20 +17,20 @@
 
 </div>
 
-## 📊 Engineering Impact & Activity
-
-<div align="center">
-  <img src="assets/metrics.svg" alt="Engineering Metrics & Activity" width="100%" />
-</div>
-
----
-
-## 📌 Executive Overview
+## 🌌 Executive Overview
 
 - 🏢 **Leadership & Engineering**: **CTO @ [BelVG](https://belvg.com)** — driving enterprise technology strategy, technical leadership, and next-gen AI engineering.
 - 🧠 **Autonomous AI & Multi-Agent Systems**: Designing high-throughput agent swarms, Model Context Protocol (MCP) toolchains, and LLM middleware integrations.
 - 🛒 **15+ Years Enterprise eCommerce Architecture**: Architecting high-load platforms, custom ERP/CRM integrations, high-speed catalog pipelines, and resilient cloud backends.
 - 🚀 **Founder & Core Creator**: Spearheading innovative digital platforms including **[fnxt.app](https://fnxt.app)**, **[deepmine.by](https://deepmine.by)**, and **[doka2.com](https://doka2.com)**.
+
+---
+
+## 📊 Engineering Impact & Activity
+
+<div align="center">
+  <img src="assets/metrics.svg" alt="Engineering Metrics & Activity" width="100%" />
+</div>
 
 ---
 
