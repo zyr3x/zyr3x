@@ -17,19 +17,10 @@
 
 </div>
 
-## 🌌 Executive Overview
-
-- 🏢 **Leadership & Engineering**: **CTO @ [BelVG](https://belvg.com)** — driving enterprise technology strategy, technical leadership, and next-gen AI engineering.
-- 🧠 **Autonomous AI & Multi-Agent Systems**: Designing high-throughput agent swarms, Model Context Protocol (MCP) toolchains, and LLM middleware integrations.
-- 🛒 **15+ Years Enterprise eCommerce Architecture**: Architecting high-load platforms, custom ERP/CRM integrations, high-speed catalog pipelines, and resilient cloud backends.
-- 🚀 **Founder & Core Creator**: Spearheading innovative digital platforms including **[fnxt.app](https://fnxt.app)**, **[deepmine.by](https://deepmine.by)**, and **[doka2.com](https://doka2.com)**.
-
----
-
-## 📊 Engineering Impact & Metrics
+## 💻 System Configuration & Profile Telemetry
 
 <div align="center">
-  <img src="assets/metrics.svg" alt="Engineering Metrics & Activity" width="100%" />
+  <img src="assets/github-style-card.svg" alt="GitHub Style System Profile" width="100%" />
 </div>
 
 ---
