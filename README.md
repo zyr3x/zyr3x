@@ -17,6 +17,14 @@
 
 </div>
 
+## 📊 Engineering Impact & Activity
+
+<div align="center">
+  <img src="assets/metrics.svg" alt="Engineering Metrics & Activity" width="100%" />
+</div>
+
+---
+
 ## 📌 Executive Overview
 
 - 🏢 **Leadership & Engineering**: **CTO @ [BelVG](https://belvg.com)** — driving enterprise technology strategy, technical leadership, and next-gen AI engineering.
