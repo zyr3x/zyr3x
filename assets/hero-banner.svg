@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="100%" height="360">
+  <defs>
+    <!-- Background Gradient -->
+    <linearGradient id="heroBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#090d16" />
+      <stop offset="50%" stop-color="#0d1117" />
+      <stop offset="100%" stop-color="#161b22" />
+    </linearGradient>
+
+    <!-- Glowing Tech Gradients -->
+    <linearGradient id="neonCyan" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="100%" stop-color="#58a6ff" />
+    </linearGradient>
+
+    <linearGradient id="neonPurple" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#bc8cff" />
+      <stop offset="100%" stop-color="#79c0ff" />
+    </linearGradient>
+
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ff6b00" />
+      <stop offset="100%" stop-color="#d97706" />
+    </linearGradient>
+
+    <!-- Glow Filter -->
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="8" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#30363d" stroke-width="0.75" stroke-opacity="0.35" />
+    </pattern>
+  </defs>
+
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas, monospace; }
+    .sans { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", Helvetica, Arial, sans-serif; }
+    .hero-title { font-weight: 900; font-size: 46px; fill: #ffffff; letter-spacing: -1px; }
+    .hero-subtitle { font-weight: 700; font-size: 18px; fill: url(#neonCyan); letter-spacing: 2px; text-transform: uppercase; }
+    .pill-text { font-size: 13px; font-weight: 600; fill: #c9d1d9; }
+    .meta-text { font-size: 12px; font-weight: 500; fill: #8b949e; }
+  </style>
+
+  <!-- Background Base -->
+  <rect width="1200" height="360" rx="12" fill="url(#heroBg)" stroke="#30363d" stroke-width="1.5" />
+
+  <!-- Abstract Grid Pattern -->
+  <rect width="1200" height="360" rx="12" fill="url(#grid)" />
+
+  <!-- Ambient Light Orbs -->
+  <circle cx="1050" cy="80" r="140" fill="#38bdf8" fill-opacity="0.08" filter="url(#glow)" />
+  <circle cx="150" cy="300" r="160" fill="#bc8cff" fill-opacity="0.07" filter="url(#glow)" />
+
+  <!-- Cyber Decorative Circuit Lines (Right Side) -->
+  <g stroke="#30363d" stroke-width="1.5" fill="none" opacity="0.6">
+    <path d="M 850 60 L 980 60 L 1040 120 L 1140 120" stroke="#38bdf8" stroke-opacity="0.5" />
+    <path d="M 900 280 L 1000 280 L 1050 230 L 1150 230" stroke="#79c0ff" stroke-opacity="0.4" />
+    <path d="M 750 320 L 820 250 L 940 250" stroke="#bc8cff" stroke-opacity="0.4" />
+    <circle cx="980" cy="60" r="4" fill="#38bdf8" />
+    <circle cx="1040" cy="120" r="4" fill="#58a6ff" />
+    <circle cx="1000" cy="280" r="4" fill="#79c0ff" />
+    <circle cx="820" cy="250" r="4" fill="#bc8cff" />
+  </g>
+
+  <!-- Left Header Status Pill -->
+  <g transform="translate(60, 48)">
+    <rect width="210" height="30" rx="15" fill="#161b22" stroke="#30363d" stroke-width="1" />
+    <circle cx="18" cy="15" r="4.5" fill="#238636" />
+    <text x="32" y="20" class="mono" font-size="12px" font-weight="600" fill="#7ee787">SYSTEM : PRODUCTION</text>
+  </g>
+
+  <!-- Main Name & Identity -->
+  <g transform="translate(60, 130)">
+    <text x="0" y="0" class="sans hero-title">OLEG SEMENOV</text>
+    <text x="440" y="-8" class="mono" font-size="20px" font-weight="600" fill="#8b949e">(@zyr3x)</text>
+    
+    <!-- CTO Role & Title -->
+    <text x="0" y="38" class="sans hero-subtitle">CTO @ BELVG • HEAD OF AI SOFTWARE ENGINEERING</text>
+    <text x="0" y="66" class="sans" font-size="15px" fill="#8b949e">
+      15+ Years Enterprise eCommerce Architecture • Autonomous Multi-Agent Swarms • LLM Tooling
+    </text>
+  </g>
+
+  <!-- Tech Pillars & Platform Badges (Bottom Row) -->
+  <g transform="translate(60, 260)">
+    <!-- Pill 1: Platforms -->
+    <g transform="translate(0, 0)">
+      <rect width="250" height="42" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="16" y="26" class="sans pill-text">⚡ <tspan font-weight="700" fill="#ffffff">fnxt.app</tspan> • <tspan fill="#ffffff">deepmine</tspan> • <tspan fill="#ffffff">doka2</tspan></text>
+    </g>
+
+    <!-- Pill 2: Open Source -->
+    <g transform="translate(265, 0)">
+      <rect width="270" height="42" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="16" y="26" class="sans pill-text">🤖 <tspan font-weight="700" fill="#58a6ff">opengeminiai</tspan> • <tspan fill="#58a6ff">antigravity</tspan></text>
+    </g>
+
+    <!-- Pill 3: Enterprise -->
+    <g transform="translate(550, 0)">
+      <rect width="270" height="42" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="16" y="26" class="sans pill-text">🛒 <tspan font-weight="700" fill="#f0883e">Magento 2</tspan> • <tspan fill="#7ee787">Sylius</tspan> • <tspan fill="#38bdf8">FastAPI</tspan></text>
+    </g>
+
+    <!-- Pill 4: Location -->
+    <g transform="translate(835, 0)">
+      <rect width="245" height="42" rx="8" fill="#161b22" stroke="#30363d" stroke-width="1" />
+      <text x="16" y="26" class="sans pill-text">🇱🇻 <tspan font-weight="700" fill="#ffffff">Riga, Latvia</tspan> • <tspan fill="#8b949e">3.2k+ Contribs</tspan></text>
+    </g>
+  </g>
+</svg>

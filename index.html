@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Oleg Semenov (@zyr3x) — CTO & AI Software Architect</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;600&family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --bg: #090d16;
+      --card-bg: rgba(22, 27, 34, 0.75);
+      --card-border: #30363d;
+      --text-main: #f0f6fc;
+      --text-muted: #8b949e;
+      --accent-blue: #58a6ff;
+      --accent-cyan: #38bdf8;
+      --accent-green: #7ee787;
+      --accent-orange: #f0883e;
+      --accent-purple: #bc8cff;
+      --font-main: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+      --font-mono: 'Fira Code', monospace;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      background-color: var(--bg);
+      color: var(--text-main);
+      font-family: var(--font-main);
+      line-height: 1.6;
+      overflow-x: hidden;
+      position: relative;
+    }
+
+    canvas#bg-canvas {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      z-index: 0;
+      pointer-events: none;
+    }
+
+    .container {
+      max-width: 1140px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+      position: relative;
+      z-index: 1;
+    }
+
+    /* Hero Section */
+    .hero {
+      background: linear-gradient(135deg, rgba(22, 27, 34, 0.9), rgba(13, 17, 23, 0.95));
+      border: 1px solid var(--card-border);
+      border-radius: 16px;
+      padding: 48px;
+      margin-bottom: 32px;
+      backdrop-filter: blur(12px);
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+    }
+
+    .status-badge {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      background: rgba(35, 134, 54, 0.15);
+      border: 1px solid rgba(35, 134, 54, 0.4);
+      color: var(--accent-green);
+      padding: 6px 14px;
+      border-radius: 20px;
+      font-family: var(--font-mono);
+      font-size: 12px;
+      font-weight: 600;
+      margin-bottom: 20px;
+    }
+
+    .status-dot {
+      width: 8px; height: 8px;
+      border-radius: 50%;
+      background: var(--accent-green);
+      box-shadow: 0 0 10px var(--accent-green);
+    }
+
+    .hero h1 {
+      font-size: clamp(32px, 5vw, 54px);
+      font-weight: 900;
+      letter-spacing: -1px;
+      margin-bottom: 8px;
+    }
+
+    .hero-subtitle {
+      font-size: clamp(16px, 2.5vw, 20px);
+      font-weight: 700;
+      color: var(--accent-cyan);
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+
+    .hero-desc {
+      font-size: 16px;
+      color: var(--text-muted);
+      max-width: 800px;
+      margin-bottom: 28px;
+    }
+
+    .hero-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+    }
+
+    .btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 20px;
+      border-radius: 8px;
+      font-weight: 600;
+      font-size: 14px;
+      text-decoration: none;
+      transition: all 0.2s ease;
+      cursor: pointer;
+    }
+
+    .btn-primary {
+      background: #238636;
+      color: #ffffff;
+      border: 1px solid rgba(255,255,255,0.1);
+    }
+    .btn-primary:hover { background: #2ea043; transform: translateY(-2px); }
+
+    .btn-secondary {
+      background: #21262d;
+      color: var(--text-main);
+      border: 1px solid var(--card-border);
+    }
+    .btn-secondary:hover { background: #30363d; color: var(--accent-blue); transform: translateY(-2px); }
+
+    /* Grid Layouts */
+    .grid-4 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 16px;
+      margin-bottom: 32px;
+    }
+
+    .grid-2 {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
+      gap: 20px;
+      margin-bottom: 32px;
+    }
+
+    .card {
+      background: var(--card-bg);
+      border: 1px solid var(--card-border);
+      border-radius: 12px;
+      padding: 24px;
+      backdrop-filter: blur(8px);
+      transition: all 0.25s ease;
+    }
+    .card:hover {
+      border-color: var(--accent-blue);
+      transform: translateY(-3px);
+      box-shadow: 0 10px 25px rgba(88, 166, 255, 0.1);
+    }
+
+    .card-metric {
+      font-size: 28px;
+      font-weight: 800;
+      margin-bottom: 4px;
+    }
+
+    .card-metric-label {
+      font-weight: 700;
+      font-size: 14px;
+      color: var(--text-main);
+      margin-bottom: 4px;
+    }
+
+    .card-metric-sub {
+      font-size: 12px;
+      color: var(--text-muted);
+    }
+
+    /* Section Headings */
+    .section-header {
+      font-size: 22px;
+      font-weight: 800;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      border-bottom: 1px solid var(--card-border);
+      padding-bottom: 10px;
+    }
+
+    .project-card h3 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    .project-card h3 a {
+      color: var(--accent-blue);
+      text-decoration: none;
+    }
+    .project-card h3 a:hover { text-decoration: underline; }
+
+    .project-desc {
+      font-size: 14px;
+      color: var(--text-muted);
+      margin-bottom: 16px;
+      min-height: 44px;
+    }
+
+    .tags {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    .tag {
+      background: rgba(88, 166, 255, 0.1);
+      color: var(--accent-blue);
+      border: 1px solid rgba(88, 166, 255, 0.2);
+      font-size: 11px;
+      font-weight: 600;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-family: var(--font-mono);
+    }
+
+    /* Footer */
+    footer {
+      text-align: center;
+      padding-top: 40px;
+      border-top: 1px solid var(--card-border);
+      color: var(--text-muted);
+      font-size: 13px;
+    }
+  </style>
+</head>
+<body>
+  <canvas id="bg-canvas"></canvas>
+
+  <div class="container">
+    <!-- Hero -->
+    <header class="hero">
+      <div class="status-badge">
+        <span class="status-dot"></span>
+        SYSTEM : PRODUCTION READY
+      </div>
+      <h1>Oleg Semenov <span style="color: var(--text-muted); font-size: 0.6em; font-family: var(--font-mono);">(@zyr3x)</span></h1>
+      <div class="hero-subtitle">CTO @ BelVG • Head of AI Software Engineering</div>
+      <p class="hero-desc">
+        15+ years architecting enterprise eCommerce ecosystems, high-throughput cloud backends, and next-generation autonomous multi-agent systems with MCP toolchains.
+      </p>
+      <div class="hero-links">
+        <a href="https://github.com/zyr3x" class="btn btn-primary">GitHub Profile</a>
+        <a href="https://www.linkedin.com/in/oleg-semenov-belvg/" class="btn btn-secondary">LinkedIn</a>
+        <a href="https://belvg.com" class="btn btn-secondary">BelVG Platform</a>
+        <span class="btn btn-secondary" style="cursor: default;">📍 Riga, Latvia 🇱🇻</span>
+      </div>
+    </header>
+
+    <!-- Metrics -->
+    <div class="grid-4">
+      <div class="card">
+        <div class="card-metric" style="color: var(--accent-blue);">🚀 3,200+</div>
+        <div class="card-metric-label">Contributions / Year</div>
+        <div class="card-metric-sub">High-velocity commits &amp; architecture</div>
+      </div>
+      <div class="card">
+        <div class="card-metric" style="color: var(--accent-green);">🏛️ 15+ Yrs</div>
+        <div class="card-metric-label">Enterprise eCommerce</div>
+        <div class="card-metric-sub">Scalable architectures &amp; high load</div>
+      </div>
+      <div class="card">
+        <div class="card-metric" style="color: var(--accent-orange);">📦 75+</div>
+        <div class="card-metric-label">Repositories Built</div>
+        <div class="card-metric-sub">Open-source tooling, SDKs &amp; APIs</div>
+      </div>
+      <div class="card">
+        <div class="card-metric" style="color: var(--accent-purple);">🤖 AI Agents</div>
+        <div class="card-metric-label">Multi-Agent &amp; MCP</div>
+        <div class="card-metric-sub">Autonomous toolchains &amp; LLM proxies</div>
+      </div>
+    </div>
+
+    <!-- Featured Platforms -->
+    <h2 class="section-header">🔮 Featured Platforms &amp; Products</h2>
+    <div class="grid-2">
+      <div class="card project-card">
+        <h3><a href="https://fnxt.app" target="_blank">⚡ fnxt.app</a></h3>
+        <p class="project-desc">Next-generation AI automation and intelligent workflow execution platform built for high efficiency and autonomous operations.</p>
+        <div class="tags">
+          <span class="tag">AI Platform</span>
+          <span class="tag">Cloudflare</span>
+          <span class="tag">FastAPI</span>
+        </div>
+      </div>
+      <div class="card project-card">
+        <h3><a href="https://deepmine.by" target="_blank">🎙️ deepmine.by</a></h3>
+        <p class="project-desc">Advanced media intelligence, speech processing, and audio synthesis pipelines for next-level content automation.</p>
+        <div class="tags">
+          <span class="tag">Audio AI</span>
+          <span class="tag">PyTorch</span>
+          <span class="tag">Whisper</span>
+        </div>
+      </div>
+      <div class="card project-card">
+        <h3><a href="https://doka2.com" target="_blank">🎮 doka2.com</a></h3>
+        <p class="project-desc">Interactive web gaming ecosystem and community platform engineering high-traffic engagement and dynamic experiences.</p>
+        <div class="tags">
+          <span class="tag">Gaming Platform</span>
+          <span class="tag">WebSockets</span>
+          <span class="tag">Node.js</span>
+        </div>
+      </div>
+      <div class="card project-card">
+        <h3><a href="https://belvg.com" target="_blank">🛍️ Enterprise eCommerce Core</a></h3>
+        <p class="project-desc">15+ years engineering high-load eCommerce ecosystems, custom extensions, API gateways, and performance optimization for global merchants.</p>
+        <div class="tags">
+          <span class="tag">Magento 2</span>
+          <span class="tag">Sylius</span>
+          <span class="tag">Prestashop</span>
+          <span class="tag">High-Load</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Open Source -->
+    <h2 class="section-header">🌟 Open Source &amp; AI Tooling</h2>
+    <div class="grid-2">
+      <div class="card project-card">
+        <h3><a href="https://github.com/zyr3x/opengeminiai-studio" target="_blank">🚀 opengeminiai-studio</a></h3>
+        <p class="project-desc">Advanced, high-performance proxy enabling seamless integration of Google Gemini API with any OpenAI API-compatible client or SDK.</p>
+        <div class="tags">
+          <span class="tag">Python</span>
+          <span class="tag">FastAPI</span>
+          <span class="tag">Gemini API</span>
+        </div>
+      </div>
+      <div class="card project-card">
+        <h3><a href="https://github.com/zyr3x/antigravity-telegram-bridge" target="_blank">🤖 antigravity-telegram-bridge</a></h3>
+        <p class="project-desc">Universal Telegram chat and control interface for Antigravity autonomous AI agents with bidirectional communication and reactive notifications.</p>
+        <div class="tags">
+          <span class="tag">Antigravity SDK</span>
+          <span class="tag">Telegram API</span>
+          <span class="tag">Asyncio</span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <p>"Engineering autonomous intelligence and scalable architectures at the intersection of AI and commerce."</p>
+      <p style="margin-top: 8px;">&copy; 2026 Oleg Semenov (@zyr3x) • Riga, Latvia</p>
+    </footer>
+  </div>
+
+  <script>
+    // Subtle background constellation particles
+    const canvas = document.getElementById('bg-canvas');
+    const ctx = canvas.getContext('2d');
+    let width, height, particles = [];
+
+    function resize() {
+      width = canvas.width = window.innerWidth;
+      height = canvas.height = window.innerHeight;
+    }
+    window.addEventListener('resize', resize);
+    resize();
+
+    class Particle {
+      constructor() {
+        this.x = Math.random() * width;
+        this.y = Math.random() * height;
+        this.vx = (Math.random() - 0.5) * 0.4;
+        this.vy = (Math.random() - 0.5) * 0.4;
+        this.radius = Math.random() * 1.5 + 0.5;
+      }
+      update() {
+        this.x += this.vx;
+        this.y += this.vy;
+        if (this.x < 0 || this.x > width) this.vx *= -1;
+        if (this.y < 0 || this.y > height) this.vy *= -1;
+      }
+      draw() {
+        ctx.beginPath();
+        ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2);
+        ctx.fillStyle = 'rgba(88, 166, 255, 0.4)';
+        ctx.fill();
+      }
+    }
+
+    for (let i = 0; i < 45; i++) particles.push(new Particle());
+
+    function animate() {
+      ctx.clearRect(0, 0, width, height);
+      for (let i = 0; i < particles.length; i++) {
+        particles[i].update();
+        particles[i].draw();
+        for (let j = i + 1; j < particles.length; j++) {
+          const dx = particles[i].x - particles[j].x;
+          const dy = particles[i].y - particles[j].y;
+          const dist = Math.sqrt(dx * dx + dy * dy);
+          if (dist < 120) {
+            ctx.beginPath();
+            ctx.moveTo(particles[i].x, particles[i].y);
+            ctx.lineTo(particles[j].x, particles[j].y);
+            ctx.strokeStyle = `rgba(88, 166, 255, ${0.15 * (1 - dist / 120)})`;
+            ctx.stroke();
+          }
+        }
+      }
+      requestAnimationFrame(animate);
+    }
+    animate();
+  </script>
+</body>
+</html>
