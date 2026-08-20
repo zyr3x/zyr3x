@@ -109,72 +109,72 @@
 
 ---
 
-## 🛠️ Complete Tech Stack & Capabilities
+## 🛠️ Complete Tech Stack & Toolbelt
 
-<table align="center" width="100%">
-  <tr>
-    <td width="20%" valign="top">
-      <b>🤖 AI & Agents</b><br><br>
-      <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini" /><br>
-      <img src="https://img.shields.io/badge/Google_Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Vertex AI" /><br>
-      <img src="https://img.shields.io/badge/Anthropic_Claude-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" /><br>
-      <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" /><br>
-      <img src="https://img.shields.io/badge/MCP_Protocol-0284C7?style=flat-square&logo=diagram-next&logoColor=white" alt="MCP" /><br>
-      <img src="https://img.shields.io/badge/FastMCP-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastMCP" /><br>
-      <img src="https://img.shields.io/badge/Antigravity_SDK-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Antigravity" /><br>
-      <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" /><br>
-      <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" /><br>
-      <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
-    </td>
-    <td width="20%" valign="top">
-      <b>🧠 Vector DB & Data</b><br><br>
-      <img src="https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square&logo=chroma&logoColor=white" alt="ChromaDB" /><br>
-      <img src="https://img.shields.io/badge/Qdrant-DC2626?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant" /><br>
-      <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" alt="Elasticsearch" /><br>
-      <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white" alt="OpenSearch" /><br>
-      <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" /><br>
-      <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector" /><br>
-      <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" /><br>
-      <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" /><br>
-      <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
-    </td>
-    <td width="20%" valign="top">
-      <b>☁️ Cloud & Infra</b><br><br>
-      <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP" /><br>
-      <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" /><br>
-      <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" /><br>
-      <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" /><br>
-      <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" /><br>
-      <img src="https://img.shields.io/badge/LXD_%2F_LXC-2C001E?style=flat-square&logo=canonical&logoColor=white" alt="LXD" /><br>
-      <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" /><br>
-      <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ" /><br>
-      <img src="https://img.shields.io/badge/Varnish_Cache-0284C7?style=flat-square&logo=varnish&logoColor=white" alt="Varnish" /><br>
-      <img src="https://img.shields.io/badge/Linux-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
-    </td>
-    <td width="20%" valign="top">
-      <b>💻 Languages</b><br><br>
-      <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" /><br>
-      <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" /><br>
-      <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" /><br>
-      <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" /><br>
-      <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" /><br>
-      <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" /><br>
-      <img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" /><br>
-      <img src="https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
-    </td>
-    <td width="20%" valign="top">
-      <b>🏗️ Core & eCommerce</b><br><br>
-      <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" /><br>
-      <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" /><br>
-      <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" /><br>
-      <img src="https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white" alt="Symfony" /><br>
-      <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" /><br>
-      <img src="https://img.shields.io/badge/Magento_2-EE672F?style=flat-square&logo=magento&logoColor=white" alt="Magento 2" /><br>
-      <img src="https://img.shields.io/badge/Sylius-1ABB9C?style=flat-square&logo=sylius&logoColor=white" alt="Sylius" /><br>
-      <img src="https://img.shields.io/badge/Prestashop-DF0067?style=flat-square&logo=prestashop&logoColor=white" alt="Prestashop" />
-    </td>
-  </tr>
-</table>
+### 🤖 AI, LLMs & Multi-Agent Swarms
+<p align="left">
+  <img src="https://img.shields.io/badge/Google_Gemini-8E75B2?style=flat-square&logo=google&logoColor=white" alt="Gemini" />
+  <img src="https://img.shields.io/badge/Google_Vertex_AI-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Vertex AI" />
+  <img src="https://img.shields.io/badge/Anthropic_Claude-D97706?style=flat-square&logo=anthropic&logoColor=white" alt="Claude" />
+  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" alt="OpenAI" />
+  <img src="https://img.shields.io/badge/MCP_Protocol-0284C7?style=flat-square&logo=diagram-next&logoColor=white" alt="MCP" />
+  <img src="https://img.shields.io/badge/FastMCP-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastMCP" />
+  <img src="https://img.shields.io/badge/Antigravity_SDK-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="Antigravity" />
+  <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white" alt="Ollama" />
+  <img src="https://img.shields.io/badge/LangChain-1C3C3C?style=flat-square&logo=langchain&logoColor=white" alt="LangChain" />
+  <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+</p>
+
+### 🧠 Vector Databases & Data Architecture
+<p align="left">
+  <img src="https://img.shields.io/badge/ChromaDB-FF6B6B?style=flat-square&logo=chroma&logoColor=white" alt="ChromaDB" />
+  <img src="https://img.shields.io/badge/Qdrant-DC2626?style=flat-square&logo=qdrant&logoColor=white" alt="Qdrant" />
+  <img src="https://img.shields.io/badge/Elasticsearch-005571?style=flat-square&logo=elasticsearch&logoColor=white" alt="Elasticsearch" />
+  <img src="https://img.shields.io/badge/OpenSearch-005EB8?style=flat-square&logo=opensearch&logoColor=white" alt="OpenSearch" />
+  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white" alt="PostgreSQL" />
+  <img src="https://img.shields.io/badge/pgvector-336791?style=flat-square&logo=postgresql&logoColor=white" alt="pgvector" />
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat-square&logo=redis&logoColor=white" alt="Redis" />
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white" alt="MySQL" />
+  <img src="https://img.shields.io/badge/SQLite-003B57?style=flat-square&logo=sqlite&logoColor=white" alt="SQLite" />
+</p>
+
+### ☁️ Cloud, DevOps & High-Load Infrastructure
+<p align="left">
+  <img src="https://img.shields.io/badge/Google_Cloud-4285F4?style=flat-square&logo=googlecloud&logoColor=white" alt="GCP" />
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat-square&logo=amazonwebservices&logoColor=white" alt="AWS" />
+  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white" alt="Docker" />
+  <img src="https://img.shields.io/badge/Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white" alt="Kubernetes" />
+  <img src="https://img.shields.io/badge/LXD_%2F_LXC-2C001E?style=flat-square&logo=canonical&logoColor=white" alt="LXD" />
+  <img src="https://img.shields.io/badge/Nginx-009639?style=flat-square&logo=nginx&logoColor=white" alt="Nginx" />
+  <img src="https://img.shields.io/badge/RabbitMQ-FF6600?style=flat-square&logo=rabbitmq&logoColor=white" alt="RabbitMQ" />
+  <img src="https://img.shields.io/badge/Varnish_Cache-0284C7?style=flat-square&logo=varnish&logoColor=white" alt="Varnish" />
+  <img src="https://img.shields.io/badge/Linux_%2F_POSIX-FCC624?style=flat-square&logo=linux&logoColor=black" alt="Linux" />
+</p>
+
+### 💻 Programming Languages
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black" alt="JavaScript" />
+  <img src="https://img.shields.io/badge/PHP-777BB4?style=flat-square&logo=php&logoColor=white" alt="PHP" />
+  <img src="https://img.shields.io/badge/Go-00ADD8?style=flat-square&logo=go&logoColor=white" alt="Go" />
+  <img src="https://img.shields.io/badge/Bash-4EAA25?style=flat-square&logo=gnubash&logoColor=white" alt="Bash" />
+  <img src="https://img.shields.io/badge/C%20%2F%20C%2B%2B-00599C?style=flat-square&logo=cplusplus&logoColor=white" alt="C++" />
+  <img src="https://img.shields.io/badge/SQL-CC292B?style=flat-square&logo=postgresql&logoColor=white" alt="SQL" />
+</p>
+
+### 🏗️ Backend, Frameworks & Enterprise eCommerce
+<p align="left">
+  <img src="https://img.shields.io/badge/FastAPI-009688?style=flat-square&logo=fastapi&logoColor=white" alt="FastAPI" />
+  <img src="https://img.shields.io/badge/Node.js-5FA04E?style=flat-square&logo=nodedotjs&logoColor=white" alt="Node.js" />
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat-square&logo=flask&logoColor=white" alt="Flask" />
+  <img src="https://img.shields.io/badge/Symfony-000000?style=flat-square&logo=symfony&logoColor=white" alt="Symfony" />
+  <img src="https://img.shields.io/badge/Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white" alt="Laravel" />
+  <img src="https://img.shields.io/badge/Magento_2-EE672F?style=flat-square&logo=magento&logoColor=white" alt="Magento 2" />
+  <img src="https://img.shields.io/badge/Sylius-1ABB9C?style=flat-square&logo=sylius&logoColor=white" alt="Sylius" />
+  <img src="https://img.shields.io/badge/Prestashop-DF0067?style=flat-square&logo=prestashop&logoColor=white" alt="Prestashop" />
+</p>
 
 ---
 
