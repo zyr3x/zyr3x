@@ -64,10 +64,11 @@
   <tr>
     <td width="50%" valign="top">
       <h3>🎮 <a href="https://doka2.com">doka2.com</a></h3>
-      <p>Interactive web gaming ecosystem and community platform engineering high-traffic engagement and dynamic experiences.</p>
+      <p>Browser-based Dota 2 multiplayer web engine and gaming platform engineered with real-time WebSocket state synchronization, custom sprites, and low-latency HTML5 canvas rendering.</p>
       <p>
-        <img src="https://img.shields.io/badge/Web_Platform-4285F4?style=flat-square&logo=googlechrome&logoColor=white" alt="Web" />
-        <img src="https://img.shields.io/badge/Gaming-9146FF?style=flat-square&logo=twitch&logoColor=white" alt="Gaming" />
+        <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
+        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
+        <img src="https://img.shields.io/badge/Canvas_Engine-F16529?style=flat-square&logo=html5&logoColor=white" alt="Canvas" />
       </p>
     </td>
     <td width="50%" valign="top">
