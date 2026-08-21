@@ -35,7 +35,7 @@
 - 🏢 **Leadership & Engineering**: **CTO @ [BelVG](https://belvg.com)** — driving enterprise technology strategy, technical leadership, and next-gen AI engineering.
 - 🧠 **Autonomous AI & Multi-Agent Systems**: Designing high-throughput agent swarms, Model Context Protocol (MCP) toolchains, and LLM middleware integrations.
 - 🛒 **15+ Years Enterprise eCommerce Architecture**: Architecting high-load platforms, custom ERP/CRM integrations, high-speed catalog pipelines, and resilient cloud backends.
-- 🚀 **Founder & Core Creator**: Co-Founder & CEO at **[fnxt.app](https://fnxt.app)** (AI Trading Benchmark), Founder at **[deepmine.by](https://deepmine.by)**, and Creator at **[doka2.com](https://doka2.com)**.
+- 🚀 **Flagship Platforms & OSS**: Core engineer behind **[fnxt.app](https://fnxt.app)**, **[belvg.com](https://belvg.com)**, **[deepmine.by](https://deepmine.by)**, and **[doka2.com](https://doka2.com)**.
 
 ---
 
@@ -76,13 +76,13 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎮 Doka 2 Web Engine</h3>
+      <h3>🎮 DOKA 2: Defense Of Kingdom's Ancients</h3>
       <p><sub>🔗 <a href="https://doka2.com">https://doka2.com</a></sub></p>
-      <p>Browser-based Dota 2 multiplayer web engine and gaming platform engineered with real-time WebSocket state synchronization, custom hero sprites, and HTML5 canvas rendering.</p>
+      <p>Browser-based 2.5D pixel-art MOBA and real-time multiplayer engine featuring 41 heroes, 43 items, tactical bot AI, WebSocket state synchronization, and PixiJS 8 rendering.</p>
       <p>
+        <img src="https://img.shields.io/badge/PixiJS_8-E72264?style=flat-square&logo=javascript&logoColor=white" alt="PixiJS" />
         <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
-        <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white" alt="TypeScript" />
-        <img src="https://img.shields.io/badge/Canvas_Engine-F16529?style=flat-square&logo=html5&logoColor=white" alt="Canvas" />
+        <img src="https://img.shields.io/badge/Fastify-000000?style=flat-square&logo=fastify&logoColor=white" alt="Fastify" />
       </p>
     </td>
   </tr>
