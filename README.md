@@ -45,10 +45,11 @@
   <tr>
     <td width="50%" valign="top">
       <h3>⚡ <a href="https://fnxt.app">fnxt.app</a></h3>
-      <p>Next-generation AI automation and intelligent workflow execution platform built for high efficiency and autonomous operations.</p>
+      <p>High-throughput AI benchmark and LLM evaluation platform designed for testing inference latency, model reasoning benchmarks, token economics, and throughput analytics.</p>
       <p>
-        <img src="https://img.shields.io/badge/AI_Platform-412991?style=flat-square&logo=openai&logoColor=white" alt="AI Platform" />
-        <img src="https://img.shields.io/badge/Cloud-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloud" />
+        <img src="https://img.shields.io/badge/AI_Benchmark-38BDF8?style=flat-square&logo=speedtest&logoColor=white" alt="AI Benchmark" />
+        <img src="https://img.shields.io/badge/LLM_Eval-818CF8?style=flat-square&logo=openai&logoColor=white" alt="LLM Eval" />
+        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
       </p>
     </td>
     <td width="50%" valign="top">
