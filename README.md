@@ -44,8 +44,8 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://fnxt.app">fnxt.app</a></h3>
-      <p><sub>💼 <strong>Co-Founder &amp; CEO</strong> • AI Trading &amp; Strategy Benchmark</sub></p>
+      <h3>⚡ FNXT AI Benchmark</h3>
+      <p><sub>🔗 <a href="https://fnxt.app">https://fnxt.app</a></sub></p>
       <p>Next-gen quantitative benchmark platform evaluating multi-model AI capabilities, empirical reasoning scores, autonomous strategy execution, and real-time market intelligence across Crypto &amp; RWA.</p>
       <p>
         <img src="https://img.shields.io/badge/AI_Benchmark-38BDF8?style=flat-square&logo=speedtest&logoColor=white" alt="AI Benchmark" />
@@ -54,8 +54,8 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🛍️ <a href="https://belvg.com">belvg.com</a></h3>
-      <p><sub>💼 <strong>Chief Technology Officer (CTO)</strong> • Enterprise Architecture</sub></p>
+      <h3>🛍️ BelVG Enterprise Ecosystem</h3>
+      <p><sub>🔗 <a href="https://belvg.com">https://belvg.com</a></sub></p>
       <p>15+ years directing enterprise technology strategy and engineering high-load eCommerce ecosystems, custom microservices, high-speed indexing pipelines, and payment gateways for global merchants.</p>
       <p>
         <img src="https://img.shields.io/badge/BelVG_Core-FF3366?style=flat-square&logo=github&logoColor=white" alt="BelVG" />
@@ -66,8 +66,8 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>📻 <a href="https://deepmine.by">deepmine.by</a></h3>
-      <p><sub>💼 <strong>Co-Founder &amp; Web Architect</strong> • Electronic Music Radio</sub></p>
+      <h3>📻 Deepmine Radio</h3>
+      <p><sub>🔗 <a href="https://deepmine.by">https://deepmine.by</a></sub></p>
       <p>Independent electronic music portal &amp; online radio station broadcasting curated Deep Tech House, Tech House, and Minimal Techno sets with Icecast 2 streaming daemons.</p>
       <p>
         <img src="https://img.shields.io/badge/Icecast_2-3B82F6?style=flat-square&logo=signal&logoColor=white" alt="Icecast" />
@@ -76,8 +76,8 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎮 <a href="https://doka2.com">doka2.com</a></h3>
-      <p><sub>💼 <strong>Creator &amp; Lead Engineer</strong> • Real-Time Web Engine</sub></p>
+      <h3>🎮 Doka 2 Web Engine</h3>
+      <p><sub>🔗 <a href="https://doka2.com">https://doka2.com</a></sub></p>
       <p>Browser-based Dota 2 multiplayer web engine and gaming platform engineered with real-time WebSocket state synchronization, custom hero sprites, and HTML5 canvas rendering.</p>
       <p>
         <img src="https://img.shields.io/badge/WebSockets-010101?style=flat-square&logo=socketdotio&logoColor=white" alt="WebSockets" />
@@ -95,8 +95,8 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🚀 <a href="https://github.com/zyr3x/opengeminiai-studio">opengeminiai-studio</a></h3>
-      <p><sub>🛠️ <strong>Creator &amp; Maintainer</strong> • OpenAI ↔ Gemini API Bridge</sub></p>
+      <h3>🚀 OpenGemini AI Studio</h3>
+      <p><sub>🔗 <a href="https://github.com/zyr3x/opengeminiai-studio">github.com/zyr3x/opengeminiai-studio</a></sub></p>
       <p>Advanced, ultra-lightweight proxy enabling seamless integration of Google Gemini API with any OpenAI API-compatible client or developer tool with zero code changes.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -105,8 +105,8 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/zyr3x/antigravity-telegram-bridge">antigravity-telegram-bridge</a></h3>
-      <p><sub>🛠️ <strong>Creator &amp; Maintainer</strong> • Antigravity Agent Interface</sub></p>
+      <h3>🤖 Antigravity Telegram Bridge</h3>
+      <p><sub>🔗 <a href="https://github.com/zyr3x/antigravity-telegram-bridge">github.com/zyr3x/antigravity-telegram-bridge</a></sub></p>
       <p>Universal Telegram chat and control interface for Google Antigravity autonomous AI agents with bidirectional communication, telemetry, and proactive notifications.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
