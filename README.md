@@ -44,7 +44,7 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://fnxt.app">FNXT AI Benchmark</a><br><sub>🔗 <a href="https://fnxt.app">https://fnxt.app</a></sub></h3>
+      <h3>⚡ FNXT AI Benchmark<br><sub>🔗 <a href="https://fnxt.app">https://fnxt.app</a></sub></h3>
       <p>Next-gen quantitative benchmark platform evaluating multi-model AI capabilities, empirical reasoning scores, autonomous strategy execution, and real-time market intelligence across Crypto &amp; RWA.</p>
       <p>
         <img src="https://img.shields.io/badge/AI_Benchmark-38BDF8?style=flat-square&logo=speedtest&logoColor=white" alt="AI Benchmark" />
@@ -53,7 +53,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🛍️ <a href="https://belvg.com">BelVG Enterprise Ecosystem</a><br><sub>🔗 <a href="https://belvg.com">https://belvg.com</a></sub></h3>
+      <h3>🛍️ BelVG Enterprise Ecosystem<br><sub>🔗 <a href="https://belvg.com">https://belvg.com</a></sub></h3>
       <p>15+ years directing enterprise technology strategy and engineering high-load eCommerce ecosystems, custom microservices, high-speed indexing pipelines, and payment gateways for global merchants.</p>
       <p>
         <img src="https://img.shields.io/badge/BelVG_Core-FF3366?style=flat-square&logo=github&logoColor=white" alt="BelVG" />
@@ -64,7 +64,7 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>📻 <a href="https://deepmine.by">Deepmine Radio</a><br><sub>🔗 <a href="https://deepmine.by">https://deepmine.by</a></sub></h3>
+      <h3>📻 Deepmine Radio<br><sub>🔗 <a href="https://deepmine.by">https://deepmine.by</a></sub></h3>
       <p>Independent electronic music portal &amp; online radio station broadcasting curated Deep Tech House, Tech House, and Minimal Techno sets with Icecast 2 streaming daemons.</p>
       <p>
         <img src="https://img.shields.io/badge/Icecast_2-3B82F6?style=flat-square&logo=signal&logoColor=white" alt="Icecast" />
@@ -73,7 +73,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎮 <a href="https://doka2.com">DOKA 2: Defense Of Kingdom's Ancients</a><br><sub>🔗 <a href="https://doka2.com">https://doka2.com</a></sub></h3>
+      <h3>🎮 DOKA 2: Defense Of Kingdom's Ancients<br><sub>🔗 <a href="https://doka2.com">https://doka2.com</a></sub></h3>
       <p>Browser-based 2.5D pixel-art MOBA and real-time multiplayer engine featuring 41 heroes, 43 items, tactical bot AI, WebSocket state synchronization, and PixiJS 8 rendering.</p>
       <p>
         <img src="https://img.shields.io/badge/PixiJS_8-E72264?style=flat-square&logo=javascript&logoColor=white" alt="PixiJS" />
@@ -91,7 +91,7 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🚀 <a href="https://github.com/zyr3x/opengeminiai-studio">OpenGemini AI Studio</a><br><sub>🔗 <a href="https://github.com/zyr3x/opengeminiai-studio">github.com/zyr3x/opengeminiai-studio</a></sub></h3>
+      <h3>🚀 OpenGemini AI Studio<br><sub>🔗 <a href="https://github.com/zyr3x/opengeminiai-studio">github.com/zyr3x/opengeminiai-studio</a></sub></h3>
       <p>Advanced, ultra-lightweight proxy enabling seamless integration of Google Gemini API with any OpenAI API-compatible client or developer tool with zero code changes.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
@@ -100,7 +100,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 <a href="https://github.com/zyr3x/antigravity-telegram-bridge">Antigravity Telegram Bridge</a><br><sub>🔗 <a href="https://github.com/zyr3x/antigravity-telegram-bridge">github.com/zyr3x/antigravity-telegram-bridge</a></sub></h3>
+      <h3>🤖 Antigravity Telegram Bridge<br><sub>🔗 <a href="https://github.com/zyr3x/antigravity-telegram-bridge">github.com/zyr3x/antigravity-telegram-bridge</a></sub></h3>
       <p>Universal Telegram chat and control interface for Google Antigravity autonomous AI agents with bidirectional communication, telemetry, and proactive notifications.</p>
       <p>
         <img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
