@@ -64,7 +64,7 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>📻 Deepmine Radio<br><sub>🔗 <a href="https://deepmine.by">https://deepmine.by</a></sub></h3>
+      <h3>📻 DEEPMINE Radio<br><sub>🔗 <a href="https://deepmine.by">https://deepmine.by</a></sub></h3>
       <p>Independent electronic music portal &amp; online radio station broadcasting curated Deep Tech House, Tech House, and Minimal Techno sets with Icecast 2 streaming daemons.</p>
       <p>
         <img src="https://img.shields.io/badge/Icecast_2-3B82F6?style=flat-square&logo=signal&logoColor=white" alt="Icecast" />
