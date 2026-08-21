@@ -44,7 +44,7 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ FNXT AI Benchmark</h3>
+      <h3>⚡ <a href="https://fnxt.app">FNXT AI Benchmark</a></h3>
       <p><sub>🔗 <a href="https://fnxt.app">https://fnxt.app</a></sub></p>
       <p>Next-gen quantitative benchmark platform evaluating multi-model AI capabilities, empirical reasoning scores, autonomous strategy execution, and real-time market intelligence across Crypto &amp; RWA.</p>
       <p>
@@ -54,7 +54,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🛍️ BelVG Enterprise Ecosystem</h3>
+      <h3>🛍️ <a href="https://belvg.com">BelVG Enterprise Ecosystem</a></h3>
       <p><sub>🔗 <a href="https://belvg.com">https://belvg.com</a></sub></p>
       <p>15+ years directing enterprise technology strategy and engineering high-load eCommerce ecosystems, custom microservices, high-speed indexing pipelines, and payment gateways for global merchants.</p>
       <p>
@@ -66,7 +66,7 @@
   </tr>
   <tr>
     <td width="50%" valign="top">
-      <h3>📻 Deepmine Radio</h3>
+      <h3>📻 <a href="https://deepmine.by">Deepmine Radio</a></h3>
       <p><sub>🔗 <a href="https://deepmine.by">https://deepmine.by</a></sub></p>
       <p>Independent electronic music portal &amp; online radio station broadcasting curated Deep Tech House, Tech House, and Minimal Techno sets with Icecast 2 streaming daemons.</p>
       <p>
@@ -76,7 +76,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🎮 DOKA 2: Defense Of Kingdom's Ancients</h3>
+      <h3>🎮 <a href="https://doka2.com">DOKA 2: Defense Of Kingdom's Ancients</a></h3>
       <p><sub>🔗 <a href="https://doka2.com">https://doka2.com</a></sub></p>
       <p>Browser-based 2.5D pixel-art MOBA and real-time multiplayer engine featuring 41 heroes, 43 items, tactical bot AI, WebSocket state synchronization, and PixiJS 8 rendering.</p>
       <p>
@@ -95,7 +95,7 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>🚀 OpenGemini AI Studio</h3>
+      <h3>🚀 <a href="https://github.com/zyr3x/opengeminiai-studio">OpenGemini AI Studio</a></h3>
       <p><sub>🔗 <a href="https://github.com/zyr3x/opengeminiai-studio">github.com/zyr3x/opengeminiai-studio</a></sub></p>
       <p>Advanced, ultra-lightweight proxy enabling seamless integration of Google Gemini API with any OpenAI API-compatible client or developer tool with zero code changes.</p>
       <p>
@@ -105,7 +105,7 @@
       </p>
     </td>
     <td width="50%" valign="top">
-      <h3>🤖 Antigravity Telegram Bridge</h3>
+      <h3>🤖 <a href="https://github.com/zyr3x/antigravity-telegram-bridge">Antigravity Telegram Bridge</a></h3>
       <p><sub>🔗 <a href="https://github.com/zyr3x/antigravity-telegram-bridge">github.com/zyr3x/antigravity-telegram-bridge</a></sub></p>
       <p>Universal Telegram chat and control interface for Google Antigravity autonomous AI agents with bidirectional communication, telemetry, and proactive notifications.</p>
       <p>
