@@ -35,7 +35,7 @@
 - 🏢 **Leadership & Engineering**: **CTO @ [BelVG](https://belvg.com)** — driving enterprise technology strategy, technical leadership, and next-gen AI engineering.
 - 🧠 **Autonomous AI & Multi-Agent Systems**: Designing high-throughput agent swarms, Model Context Protocol (MCP) toolchains, and LLM middleware integrations.
 - 🛒 **15+ Years Enterprise eCommerce Architecture**: Architecting high-load platforms, custom ERP/CRM integrations, high-speed catalog pipelines, and resilient cloud backends.
-- 🚀 **Founder & Core Creator**: Spearheading innovative digital platforms including **[fnxt.app](https://fnxt.app)**, **[deepmine.by](https://deepmine.by)**, and **[doka2.com](https://doka2.com)**.
+- 🚀 **Founder & Core Creator**: Co-Founder & CEO at **[fnxt.app](https://fnxt.app)** (AI Trading Benchmark), Founder at **[deepmine.by](https://deepmine.by)**, and Creator at **[doka2.com](https://doka2.com)**.
 
 ---
 
@@ -44,12 +44,12 @@
 <table width="100%">
   <tr>
     <td width="50%" valign="top">
-      <h3>⚡ <a href="https://fnxt.app">fnxt.app</a></h3>
-      <p>High-throughput AI benchmark and LLM evaluation platform designed for testing inference latency, model reasoning benchmarks, token economics, and throughput analytics.</p>
+      <h3>⚡ <a href="https://fnxt.app">fnxt.app (FNXT AI Benchmark)</a></h3>
+      <p>Next-gen AI trading &amp; quantitative strategy benchmark platform. Evaluates multi-model AI capabilities, empirical reasoning scores, autonomous strategy execution, and real-time intelligence across Crypto &amp; RWA.</p>
       <p>
         <img src="https://img.shields.io/badge/AI_Benchmark-38BDF8?style=flat-square&logo=speedtest&logoColor=white" alt="AI Benchmark" />
-        <img src="https://img.shields.io/badge/LLM_Eval-818CF8?style=flat-square&logo=openai&logoColor=white" alt="LLM Eval" />
-        <img src="https://img.shields.io/badge/Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white" alt="Cloudflare" />
+        <img src="https://img.shields.io/badge/Multi--Model_Eval-818CF8?style=flat-square&logo=openai&logoColor=white" alt="Model Eval" />
+        <img src="https://img.shields.io/badge/Crypto_%26_RWA-10B981?style=flat-square&logo=bitcoin&logoColor=white" alt="Crypto & RWA" />
       </p>
     </td>
     <td width="50%" valign="top">
